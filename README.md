@@ -17,7 +17,7 @@ Following the HTML and CSS template provided by Udacity, complete the JavaScript
 
 ## Notes
 
-In this project, I'll be making use of the skills learned in the JavaScript foundations class as well as jQuery if it becomes apparent while working through the project that setting up event-listeners using jQuery is the best way to detect user interaction activity on the page.
+In this project, I'll be making use of the skills learned in the JavaScript foundations class as well as jQuery (using jQuery is not a requirement).
 
 According to the project overview, the tasks involved in developing the interactive pixel canvas will involve:
 * Defining variables with `const` and `let`
