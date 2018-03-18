@@ -1,0 +1,30 @@
+Steps I need to take to get my Pixel Art page to work:
+
+The user needs to be able to create a grid of cells based on the parameters they select in the grid form:
+
+Grid Height can be selected by its id "inputHeight".
+The minimum value this form field will accept is 1
+The value attribute is currently set to 1.  This is what is being passed to the JS script.
+
+Your JS script will need to access the form element by its id: "inputHeight" and get its value from the value attribute to update the height of your grid.
+
+Likewise, it will access the form element for Grid Width by id: "inputWidth" and get its value from the corresponding value to make updates to width.
+
+Once it has these variables, it has to build a grid of cells based on these properties
+
+
+jQuery methods will be important for listening to the events as they take place on the page:
+
+click events in a cell grid will need to trigger functionality that applies the selected color to the clicked on cell
+
+This means the color selected by the user will need to be captured by a function and updates an empty cell with the color.
+
+=========================
+Additional functionality
+=========================
+
+Add a button to clear the grid when it's clicked (jQuery event listener) which will clear the art work.  You should send a classic JS alert to the user asking them if they're sure they want to clear the canvas
+
+Add a button to remove / re-apply the grid so they can see their artwork with or without a grid background.
+
+You could also add a button to change the cursor to an eraser which you should be able to toggle on or off
